@@ -1,2 +1,10 @@
 node_modules/
 !build/
+node_modules/.cache/
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+*.swp
+package-lock.json
+yarn.lock
