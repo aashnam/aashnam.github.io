@@ -57,7 +57,6 @@ const Experience = () => {
               <Chip label="React.js" id='chip' />
               <Chip label="Figma" id='chip'/>
               <Chip label="Frontend Development" id='chip'/>
-              <Chip label="Graph Visualization" id='chip'/>
               <Chip label="Data Visualization" id='chip'/>
             </Stack>
           </TimelineContent>
