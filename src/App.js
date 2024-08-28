@@ -10,6 +10,7 @@ import Provenance from "./components/Provenance";
 import PeopleWeave from "./components/PeopleWeave";
 import TeamTech from "./components/TeamTech";
 import ResearchBlog from "./components/ResearchBlog";
+import TravelApp from "./components/TravelApp.js";
 import Footer from "./components/Footer"; 
 import Values from './components/Values';
 import "./App.css"; 
@@ -53,6 +54,7 @@ const App = () => {
         <Route path="/peopleweave" element={<PeopleWeave />} />
         <Route path="/teamtech" element={<TeamTech />} />
         <Route path="/researchblog" element={<ResearchBlog />} />
+        <Route path="/travelapp" element={<TravelApp />} />
       </Routes>
       {location.pathname === '/' && <Footer />}
     </div>

@@ -10,27 +10,34 @@ import "../App.css";
 const projects = [
     {
         id: 1,
+        title: "Travel Planning App",
+        description: "Developed an app to help you plan your trips with generated itineraries and personalized packing lists!",
+        imageUrl: "./travelappicon.jpeg",
+        detailsUrl: "/travelapp"
+    },
+    {
+        id: 2,
         title: "Provenance Security",
         description: "Designed frontend for cybersecurity startup Provenance Security",
         imageUrl: "./Alerts.jpg",
         detailsUrl: "/provenance"
     },
     {
-        id: 2,
+        id: 3,
         title: "Caesar Research Group PeopleWeave Project",
         description: "Collaborating with Graph Visualizations team to develop an interactive graph visualization to connect researchers, improve networking experiences, and display research collaborations",
         imageUrl: "./secondPage.png",
         detailsUrl: "/peopleweave"
     },
     {
-        id:3,
+        id:4,
         title: "Team Tech App Development Team",
         description: "Collaborating with app development team in Society of Women Engineers to create an app for John Deere that helps differentiate crops, animals, and debris to assist farm technology",
         imageUrl: "./tt_landing.png",
         detailsUrl: "/teamtech"
     },
     {
-        id:4,
+        id:5,
         title: "Research Blog Website",
         description: "I designed the layout of a blog website for researchers",
         imageUrl: "./blog-landing.png",
