@@ -30,7 +30,7 @@ const ResearchBlog = () => {
   };
 
   return (
-    <div style={{ paddingTop: '100px' }}>
+    <div style={{paddingBottom: '10%'}}>
       <h1 style={{ fontFamily: 'CustomFont', color: 'white', fontSize: '80px', lineHeight: '0.8' }} className="text-center mb-20">Research Blog Website</h1>
       <p style={{ fontSize: '2rem', paddingLeft: '50px', fontFamily: 'customFont', fontSize: '50px', color: 'white' }}>Overview</p>
       <p style={{ fontFamily: 'Roboto Mono', fontSize: '1.2rem', paddingLeft: '50px', paddingTop: '20px', color: 'white' }}>

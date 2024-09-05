@@ -6,8 +6,7 @@ import '../styles/fonts.css';
 
 const PeopleWeave = () => {
   return (
-    <div style={{ paddingTop: '100px', marginLeft: '50px', marginRight: '50px'
-    }}>
+    <div style={{paddingBottom: '10%'}}>
       <h1 style={{ fontFamily: 'CustomFont', color: 'white', fontSize: '80px', lineHeight: '0.8' }} className="text-center mb-20">Caesar Research Group PeopleWeave Project</h1>
       <p style={{ fontSize: '2rem', paddingLeft: '50px', fontFamily: 'customFont', fontSize: '50px', color: 'white' }}>Overview</p>
       <p style={{ fontFamily: 'Roboto Mono', fontSize: '1.2rem', paddingLeft: '50px', paddingTop: '20px', color: 'white' }}>
@@ -54,7 +53,7 @@ const PeopleWeave = () => {
       </div>
       <br/>
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img src="./hoverNode.png"  style={{ width: '50%', height: 'auto', marginLeft: '40px' }} alt="Hover Node" />
+        <img src="/hoverNode.png"  style={{ width: '50%', height: 'auto', marginLeft: '40px' }} alt="Hover Node" />
         <p style={{ fontFamily: 'Roboto Mono', color: 'white', fontSize: '1.2rem', marginLeft: '50px', marginTop: '-20px' }}>
           Hovering over a node on the graph will give a quick glance of what their university affiliation is and what research topics they study.
         </p>

@@ -25,7 +25,7 @@ const TeamTech = () => {
   };
 
   return (
-    <div style={{ paddingTop: '100px', backgroundColor: 'transparent' }}> {/* Preserve original background color */}
+    <div style={{paddingBottom: '10%'}}> 
       <h1 style={{ fontFamily: 'CustomFont', color: 'white', fontSize: '80px', lineHeight: '0.8' }} className="text-center mb-20">Team Tech John Deere App</h1>
       <p style={{ color: 'white', fontSize: '50px', paddingLeft: '50px', fontFamily: 'customFont' }}>Overview</p>
       <p style={{ color: 'white', fontFamily: 'Roboto Mono', fontSize: '1.2rem', paddingLeft: '50px', paddingTop: '20px' }}>

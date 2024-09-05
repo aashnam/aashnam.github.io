@@ -33,7 +33,7 @@ const projects = [
         id:4,
         title: "Team Tech App Development Team",
         description: "Collaborating with app development team in Society of Women Engineers to create an app for John Deere that helps differentiate crops, animals, and debris to assist farm technology",
-        imageUrl: "./tt_landing.png",
+        imageUrl: "/tt_landing.png",
         detailsUrl: "/teamtech"
     },
     {

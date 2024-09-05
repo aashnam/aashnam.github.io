@@ -27,10 +27,10 @@ const Provenance = () => {
   };
 
   return (
-    <div style={{ paddingTop: '100px',  marginLeft: '50px', marginRight: '50px' }}>
+    <div style={{paddingBottom: '10%'}}>
       <h1 style={{ fontFamily: 'CustomFont', color: 'white', fontSize: '80px', lineHeight: '0.8' }} className="text-center mb-20">Provenance Security</h1>
-      <p style={{ fontSize: '2rem', paddingLeft: '50px', fontFamily: 'customFont', fontSize: '50px', color: 'white' }}>Overview</p>
-      <p style={{ fontFamily: 'Roboto Mono', fontSize: '1.2rem', paddingLeft: '50px', paddingTop: '20px', color: 'white' }}>
+      <p style={{ fontSize: '2rem', paddingLeft: '3%', fontFamily: 'customFont', fontSize: '320%', color: 'white' }}>Overview</p>
+      <p style={{ fontFamily: 'Roboto Mono', fontSize: '1.2rem', paddingLeft: '50px', paddingTop: '20px', color: 'white', marginRight: '5%'}}>
         Provenance Security is an innovative cybersecurity platform aiming to help security analysts identify and resolve alerts 
         through the use of provenance graphs. These graphs along with additional statistics provide data to better understand potential threats. 
         Our goal with this website is to provide an interactive experience for investigation and resolution of any security issues. 
@@ -70,7 +70,7 @@ const Provenance = () => {
       </div>
       <br/>
       <div id='steps-container' style={{marginTop: '250px'}}>
-      <p style={{ fontSize: '2rem', paddingLeft: '50px', fontFamily: 'customFont', fontSize: '50px', color: 'white', marginTop: '50px', marginBottom: '20px' }}>Demonstration</p>
+      <p style={{marginLeft: '10%'}}>Demonstration</p>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <img src="./Dashboard.jpg" className="enlarge-on-hover" style={{ width: '50%', height: 'auto', marginLeft: '30px'}} alt="Dashboard" />
           <p style={{ fontFamily: 'Roboto Mono', color: 'white', fontSize: '1.2rem', marginLeft: '50px', marginTop: '-20px', marginRight: '40px' }}>
