@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter, Route, Routes, useLocation } from 'react-router-dom';
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
@@ -63,8 +63,8 @@ const App = () => {
 
 export default function AppWrapper() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
