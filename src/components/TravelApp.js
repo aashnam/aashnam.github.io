@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
+
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import Slider from "react-slick";
@@ -31,6 +33,13 @@ const TravelApp = () => {
 
   return (
     <div style={{paddingBottom: '10%'}}>
+      <Helmet>
+      <meta property="og:title" content="Travel Planning App" />
+      <meta property="og:description" content="A travel planning app that simplifies the process" />
+      <meta property="og:image" content="/travelappicon.jpeg" />
+      <meta property="og:url" content="https://aashnam.github.io/#/travelapp" />
+      <meta property="og:type" content="website" />
+    </Helmet>
       <h1 style={{ fontFamily: 'CustomFont', color: 'white', fontSize: '80px', lineHeight: '0.8' }} className="text-center mb-20">Travel Planning App</h1>
       <p style={{ fontSize: '2rem', paddingLeft: '3%', fontFamily: 'customFont', fontSize: '320%', color: 'white' }}>Overview</p>
       <p style={{ fontFamily: 'Roboto Mono', fontSize: '1.2rem', paddingLeft: '50px', paddingTop: '20px', color: 'white', marginRight: '5%'}}>
